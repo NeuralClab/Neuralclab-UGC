@@ -23,7 +23,8 @@
 
 const SITE = {
   name: "NeuralClab",
-  baseUrl: "https://neuralclab-ugc.vercel.app", // confirmado: repo NeuralClab/Neuralclab-ugc
+  personName: "Patrick Bravo", // el Person siempre es Patrick, aunque la marca sea NeuralClab
+  baseUrl: "https://neuralclab-ugc.vercel.app", // ⚠️ confírmame la URL real del repo Neuralclab-UGC
   defaultImage: "https://neuralclab-ugc.vercel.app/img/og-default.jpg",
   twitterHandle: "@neuralclab",
   logo: "https://neuralclab-ugc.vercel.app/img/logo.png",
@@ -31,6 +32,11 @@ const SITE = {
     "https://www.youtube.com/channel/UC_EQH_U6yBtna6zt81mbBCQ",
     "https://www.tiktok.com/@neuralclab",
     "https://www.instagram.com/neuralclab",
+  ],
+  stats: [
+    { platform: "YouTube", followers: 7485 },
+    { platform: "TikTok", followers: 1278 },
+    { platform: "Instagram", followers: 877 },
   ],
 };
 
@@ -43,7 +49,8 @@ const ROUTES = [
     changefreq: "weekly",
     priority: 1.0,
     lastmod: "2026-07-17",
-    type: "SoftwareApplication",
+    type: "Person",
+    jobTitle: "Creador de contenido IA / Divulgador de tecnología",
     image: "https://neuralclab-ugc.vercel.app/img/og-home.jpg",
     // keywords: creador de contenido ia (10-100) · influencer de
     // tecnologia (10-100) · influencer tecnologia (10-100) · influencer
@@ -58,7 +65,9 @@ const ROUTES = [
     changefreq: "monthly",
     priority: 0.9,
     lastmod: "2026-07-17",
-    type: "FAQPage",
+    type: "ServicePage",
+    serviceType: "Formación en Inteligencia Artificial 1:1",
+    areaServed: "ES",
     image: "https://neuralclab-ugc.vercel.app/img/og-formacion.jpg",
     faq: [
       {
