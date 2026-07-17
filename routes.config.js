@@ -71,6 +71,14 @@ const ROUTES = [
     image: "https://neuralclab-ugc.vercel.app/img/og-formacion.jpg",
     faq: [
       {
+        q: "¿Qué incluye la formación en inteligencia artificial de NeuralClab?",
+        a: "Sesiones personalizadas 1:1 centradas en el uso práctico de IA generativa (ChatGPT, Gemini, Claude) aplicada a tu trabajo o negocio, sin necesidad de conocimientos técnicos previos.",
+      },
+      {
+        q: "¿Qué herramientas de IA para productividad se enseñan?",
+        a: "Se trabajan herramientas de automatización y productividad según el caso de cada alumno: gestión de tareas, generación de contenido y flujos de trabajo con IA.",
+      },
+      {
         q: "¿Necesito conocimientos técnicos para la formación en IA?",
         a: "No. Las sesiones parten de cero y avanzan a tu ritmo, con casos prácticos aplicados a tu negocio o trabajo diario.",
       },
