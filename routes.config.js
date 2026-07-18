@@ -43,9 +43,9 @@ const SITE = {
 const ROUTES = [
   {
     path: "/",
-    title: "NeuralClab — Creador de Contenido IA e Influencer Tecnología",
+    title: "Creador de Contenido IA e Influencer Tecnología",
     description:
-      "Contenido, herramientas y formación práctica de Inteligencia Artificial para creadores y empresas. IA aplicada, sin humo.",
+      "Creador de Contenido IA sobre herramientas y formación práctica en IA para creadores y empresas. IA aplicada, sin humo.",
     changefreq: "weekly",
     priority: 1.0,
     lastmod: "2026-07-17",
@@ -56,6 +56,20 @@ const ROUTES = [
     // tecnologia (10-100) · influencer tecnologia (10-100) · influencer
     // inteligencia artificial (10-100) · inteligencia artificial
     // influencer (10-100) · youtuber tecnologia (10-100)
+    faq: [
+      {
+        q: "¿Qué es un creador de contenido de inteligencia artificial?",
+        a: "Es un creador que produce contenido educativo y práctico sobre herramientas y aplicaciones de IA, ayudando a su audiencia a entender y usar la tecnología.",
+      },
+      {
+        q: "¿Quién está detrás de NeuralClab?",
+        a: "NeuralClab es el proyecto de contenido tecnológico de Patrick Bravo, centrado en IA aplicada y formación práctica para creadores y empresas.",
+      },
+      {
+        q: "¿En qué redes se puede seguir a NeuralClab?",
+        a: "NeuralClab está en YouTube, TikTok e Instagram, con contenido de herramientas de IA, tutoriales y automatizaciones.",
+      },
+    ],
   },
   {
     path: "/formacion-ia",
