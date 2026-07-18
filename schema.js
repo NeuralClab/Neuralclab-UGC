@@ -60,6 +60,7 @@ function buildSchema(route, site) {
     case "Person": {
       const profilePageNode = {
         "@type": "ProfilePage",
+        dateModified: route.lastmod,
         mainEntity: {
           "@type": "Person",
           "@id": `${site.baseUrl}/#person`,
@@ -69,6 +70,7 @@ function buildSchema(route, site) {
           description: route.description,
           jobTitle: route.jobTitle || "Creador de contenido",
           sameAs: site.sameAs,
+          ...(route.tags ? { knowsAbout: route.tags } : {}),
           ...(site.stats
             ? {
                 interactionStatistic: site.stats.map((s) => ({
