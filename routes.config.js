@@ -43,20 +43,25 @@ const SITE = {
 const ROUTES = [
   {
     path: "/",
-    title: "Creador de Contenido IA e Influencer Tecnología",
+    title: "NeuralClab — Tutoriales de IA Aplicada para No Técnicos",
     description:
-      "Creador de Contenido IA sobre herramientas y formación práctica en IA para creadores y empresas. IA aplicada, sin humo.",
+      "Aprende a usar ChatGPT, Gemini y Claude sin código y sin tecnicismos. Tutoriales, automatizaciones y formación en IA aplicada a la productividad.",
     changefreq: "weekly",
     priority: 1.0,
-    lastmod: "2026-07-17",
+    lastmod: "2026-07-18",
     type: "Person",
-    jobTitle: "Creador de contenido IA / Divulgador de tecnología",
+    jobTitle: "Tutoriales de IA aplicada para no técnicos",
+    tags: ["Tutoriales sin código", "IA para no técnicos", "Herramientas IA", "IA generativa", "Productividad", "GEO", "Automatizaciones"],
     image: "https://neuralclab-ugc.vercel.app/img/og-home.jpg",
     // keywords: creador de contenido ia (10-100) · influencer de
     // tecnologia (10-100) · influencer tecnologia (10-100) · influencer
     // inteligencia artificial (10-100) · inteligencia artificial
     // influencer (10-100) · youtuber tecnologia (10-100)
     faq: [
+      {
+        q: "¿NeuralClab es un influencer de IA generado artificialmente?",
+        a: "No. NeuralClab es el proyecto de contenido de Patrick Bravo, una persona real que enseña a usar herramientas de IA — no un avatar virtual generado por inteligencia artificial.",
+      },
       {
         q: "¿Qué es un creador de contenido de inteligencia artificial?",
         a: "Es un creador que produce contenido educativo y práctico sobre herramientas y aplicaciones de IA, ayudando a su audiencia a entender y usar la tecnología.",
