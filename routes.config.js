@@ -18,6 +18,16 @@
  *       (2 años, título regulado). Pujas muy altas (hasta 8€) porque son
  *       muy comerciales, pero quien busca esto no quiere tu formación
  *       1:1 — el rebote sería alto. Fuera de esta landing.
+ *
+ * ⚠️ PENDIENTE (pospuesto 22/07/2026): la ruta "/formacion-ia" de más
+ * abajo está comentada a propósito. Auditoría de sitemap detectó que
+ * esta URL se declaraba en el sitemap.xml sin existir página real
+ * construida (404 real servido a Google) — mismo fallo que ya se
+ * corrigió en el portfolio de Patrick Bravo Influencer. Se decide
+ * dejarla fuera del ROUTES activo (y por tanto fuera del sitemap) hasta
+ * que se construya la página real "/formacion-ia.html" con este mismo
+ * contenido. Cuando se construya: descomentar el objeto de abajo y
+ * añadirlo de nuevo al array ROUTES.
  * -----------------------------------------------------------------------
  */
 
@@ -52,7 +62,7 @@ const ROUTES = [
     type: "Person",
     jobTitle: "Tutoriales de IA aplicada para no técnicos",
     tags: ["Tutoriales sin código", "IA para no técnicos", "Herramientas IA", "IA generativa", "Productividad", "GEO", "Automatizaciones"],
-    image: "https://neuralclab-ugc.vercel.app/img/og-home.jpg",
+    image: "https://neuralclab-ugc.vercel.app/img/og-image.jpg",
     // keywords: creador de contenido ia (10-100) · influencer de
     // tecnologia (10-100) · influencer tecnologia (10-100) · influencer
     // inteligencia artificial (10-100) · inteligencia artificial
@@ -76,6 +86,13 @@ const ROUTES = [
       },
     ],
   },
+
+  /* ---------------------------------------------------------------------
+   * POSPUESTA — no incluir en ROUTES hasta construir la página real.
+   * Contenido conservado íntegro, listo para reactivar sin perder nada
+   * del trabajo de keyword research ya hecho.
+   * ---------------------------------------------------------------------
+
   {
     path: "/formacion-ia",
     title: "Formación en Inteligencia Artificial 1:1 | NeuralClab",
@@ -110,6 +127,9 @@ const ROUTES = [
     // puja 2,19-6,50€) · formación en datos e inteligencia artificial
     // (10-100) · herramientas de ia para productividad (10-100)
   },
+
+  --------------------------------------------------------------------- */
+
   // 👉 Pendiente de decidir: ¿landing propia para "consultor de
   // inteligencia artificial" si en algún momento ofreces consultoría
   // B2B además de formación 1:1? Por ahora queda fuera.
